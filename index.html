@@ -19,7 +19,37 @@
             <button id="not-urgent-btn">Chill<div id="not-urgent"></div></button>
             <button id="edit-btn">Edit</button>
         </div>
+        
     </nav>
+
+    <dialog id="create">
+        <div id="title-div">
+            <label for="title">Title:</label>
+            <input id="title" type="text" required>
+        </div>
+        <div id="description-div">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description"></textarea>
+        </div>
+        <div id="due-date-div">
+            <label for="due-date">Due Date:</label>
+            <input id="due-date" type="date" required>
+        </div>
+        <div id="priority-div">
+        <label for="priority">Priority:</label>
+            <select id="priority">
+                <option value="chill">Chill</option>
+                <option value="moderate">Moderate</option>
+                <option value="urgent">Urgent</option>
+            </select>
+        </div>
+        <div id="button-div">
+            <button id="cancel" type="submit" formnovalidate>Cancel</button>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+        </dialog>
+
     <script src="./script.js"></script>
+
 </body>
 </html>

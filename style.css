@@ -64,3 +64,76 @@ button:hover{
     background-color: #29ADB2;
     margin-left: 10px;
 }
+
+dialog{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF9D0;
+    color: #5AB2FF;
+    border-radius: 10px;
+}
+
+#description-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button-div > * {
+    background-color: #CAF4FF;
+}
+
+dialog > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: vertical;
+    background-color: #CAF4FF;
+    border-radius: 3px;
+    border: 3px solid #5AB2FF;
+}
+
+#title-div {
+    display: flex;
+    justify-content: start;
+}
+
+#title-div > input {
+    margin-left: 10px;
+    background-color: #CAF4FF;
+    border-radius: 3px;
+    border: 3px solid #5AB2FF;
+}
+
+#due-date-div {
+    display: flex;
+    justify-content: start;
+}
+
+#due-date-div > input{
+    margin-left: 10px;
+    background-color: #CAF4FF;
+    border-radius: 3px;
+    border: 3px solid #5AB2FF;
+}
+
+#priority-div {
+    display: flex;
+    justify-content: start;
+}
+
+#priority-div > select {
+    margin-left: 10px;
+    background-color: #CAF4FF;
+    border-radius: 3px;
+    border: 3px solid #5AB2FF;
+}
+
